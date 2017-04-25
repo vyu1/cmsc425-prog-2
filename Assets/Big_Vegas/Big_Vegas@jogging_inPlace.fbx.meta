@@ -173,7 +173,7 @@ ModelImporter:
     400162: newVegas:Spine
     400164: newVegas:Spine1
     400166: newVegas:Spine2
-    7400000: mixamo.com
+    7400000: jogging_inPlace
     9500000: //RootNode
   materials:
     importMaterials: 1
@@ -195,7 +195,203 @@ ModelImporter:
     animationScaleError: 0.5
     animationWrapMode: 0
     extraExposedTransformPaths: []
-    clipAnimations: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: jogging_inPlace
+      takeName: mixamo.com
+      firstFrame: 0
+      lastFrame: 77
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: newVegas:Hips
+        weight: 1
+      - path: newVegas:Hips/newVegas:ElvisFacialAnim_Joint
+        weight: 1
+      - path: newVegas:Hips/newVegas:Pelvis
+        weight: 1
+      - path: newVegas:Hips/newVegas:Pelvis/newVegas:LeftUpLeg
+        weight: 1
+      - path: newVegas:Hips/newVegas:Pelvis/newVegas:LeftUpLeg/newVegas:LeftLeg
+        weight: 1
+      - path: newVegas:Hips/newVegas:Pelvis/newVegas:LeftUpLeg/newVegas:LeftLeg/newVegas:Left_PantLeg
+        weight: 1
+      - path: newVegas:Hips/newVegas:Pelvis/newVegas:LeftUpLeg/newVegas:LeftLeg/newVegas:LeftFoot
+        weight: 1
+      - path: newVegas:Hips/newVegas:Pelvis/newVegas:LeftUpLeg/newVegas:LeftLeg/newVegas:LeftFoot/newVegas:LeftToeBase
+        weight: 1
+      - path: newVegas:Hips/newVegas:Pelvis/newVegas:RightUpLeg
+        weight: 1
+      - path: newVegas:Hips/newVegas:Pelvis/newVegas:RightUpLeg/newVegas:RightLeg
+        weight: 1
+      - path: newVegas:Hips/newVegas:Pelvis/newVegas:RightUpLeg/newVegas:RightLeg/newVegas:Right_PantLeg
+        weight: 1
+      - path: newVegas:Hips/newVegas:Pelvis/newVegas:RightUpLeg/newVegas:RightLeg/newVegas:RightFoot
+        weight: 1
+      - path: newVegas:Hips/newVegas:Pelvis/newVegas:RightUpLeg/newVegas:RightLeg/newVegas:RightFoot/newVegas:RightToeBase
+        weight: 1
+      - path: newVegas:Hips/newVegas:Spine
+        weight: 1
+      - path: newVegas:Hips/newVegas:Spine/newVegas:Belly
+        weight: 1
+      - path: newVegas:Hips/newVegas:Spine/newVegas:Spine1
+        weight: 1
+      - path: newVegas:Hips/newVegas:Spine/newVegas:Spine1/newVegas:Spine2
+        weight: 1
+      - path: newVegas:Hips/newVegas:Spine/newVegas:Spine1/newVegas:Spine2/newVegas:Collar_Back
+        weight: 1
+      - path: newVegas:Hips/newVegas:Spine/newVegas:Spine1/newVegas:Spine2/newVegas:Left_Collar
+        weight: 1
+      - path: newVegas:Hips/newVegas:Spine/newVegas:Spine1/newVegas:Spine2/newVegas:Left_Collar/newVegas:Left_Collar1
+        weight: 1
+      - path: newVegas:Hips/newVegas:Spine/newVegas:Spine1/newVegas:Spine2/newVegas:Left_Peck
+        weight: 1
+      - path: newVegas:Hips/newVegas:Spine/newVegas:Spine1/newVegas:Spine2/newVegas:LeftShoulder
+        weight: 1
+      - path: newVegas:Hips/newVegas:Spine/newVegas:Spine1/newVegas:Spine2/newVegas:LeftShoulder/newVegas:LeftArm
+        weight: 1
+      - path: newVegas:Hips/newVegas:Spine/newVegas:Spine1/newVegas:Spine2/newVegas:LeftShoulder/newVegas:LeftArm/newVegas:Left_CapeA
+        weight: 1
+      - path: newVegas:Hips/newVegas:Spine/newVegas:Spine1/newVegas:Spine2/newVegas:LeftShoulder/newVegas:LeftArm/newVegas:Left_CapeA/newVegas:Left_CapeA1
+        weight: 1
+      - path: newVegas:Hips/newVegas:Spine/newVegas:Spine1/newVegas:Spine2/newVegas:LeftShoulder/newVegas:LeftArm/newVegas:Left_CapeB
+        weight: 1
+      - path: newVegas:Hips/newVegas:Spine/newVegas:Spine1/newVegas:Spine2/newVegas:LeftShoulder/newVegas:LeftArm/newVegas:Left_CapeB/newVegas:Left_CapeB1
+        weight: 1
+      - path: newVegas:Hips/newVegas:Spine/newVegas:Spine1/newVegas:Spine2/newVegas:LeftShoulder/newVegas:LeftArm/newVegas:LeftForeArm
+        weight: 1
+      - path: newVegas:Hips/newVegas:Spine/newVegas:Spine1/newVegas:Spine2/newVegas:LeftShoulder/newVegas:LeftArm/newVegas:LeftForeArm/newVegas:Left_CapeC
+        weight: 1
+      - path: newVegas:Hips/newVegas:Spine/newVegas:Spine1/newVegas:Spine2/newVegas:LeftShoulder/newVegas:LeftArm/newVegas:LeftForeArm/newVegas:Left_CapeC/newVegas:Left_CapeC1
+        weight: 1
+      - path: newVegas:Hips/newVegas:Spine/newVegas:Spine1/newVegas:Spine2/newVegas:LeftShoulder/newVegas:LeftArm/newVegas:LeftForeArm/newVegas:Left_Sleeve
+        weight: 1
+      - path: newVegas:Hips/newVegas:Spine/newVegas:Spine1/newVegas:Spine2/newVegas:LeftShoulder/newVegas:LeftArm/newVegas:LeftForeArm/newVegas:LeftHand
+        weight: 1
+      - path: newVegas:Hips/newVegas:Spine/newVegas:Spine1/newVegas:Spine2/newVegas:LeftShoulder/newVegas:LeftArm/newVegas:LeftForeArm/newVegas:LeftHand/newVegas:LeftHandIndex1
+        weight: 1
+      - path: newVegas:Hips/newVegas:Spine/newVegas:Spine1/newVegas:Spine2/newVegas:LeftShoulder/newVegas:LeftArm/newVegas:LeftForeArm/newVegas:LeftHand/newVegas:LeftHandIndex1/newVegas:LeftHandIndex2
+        weight: 1
+      - path: newVegas:Hips/newVegas:Spine/newVegas:Spine1/newVegas:Spine2/newVegas:LeftShoulder/newVegas:LeftArm/newVegas:LeftForeArm/newVegas:LeftHand/newVegas:LeftHandIndex1/newVegas:LeftHandIndex2/newVegas:LeftHandIndex3
+        weight: 1
+      - path: newVegas:Hips/newVegas:Spine/newVegas:Spine1/newVegas:Spine2/newVegas:LeftShoulder/newVegas:LeftArm/newVegas:LeftForeArm/newVegas:LeftHand/newVegas:LeftHandMiddle1
+        weight: 1
+      - path: newVegas:Hips/newVegas:Spine/newVegas:Spine1/newVegas:Spine2/newVegas:LeftShoulder/newVegas:LeftArm/newVegas:LeftForeArm/newVegas:LeftHand/newVegas:LeftHandMiddle1/newVegas:LeftHandMiddle2
+        weight: 1
+      - path: newVegas:Hips/newVegas:Spine/newVegas:Spine1/newVegas:Spine2/newVegas:LeftShoulder/newVegas:LeftArm/newVegas:LeftForeArm/newVegas:LeftHand/newVegas:LeftHandMiddle1/newVegas:LeftHandMiddle2/newVegas:LeftHandMiddle3
+        weight: 1
+      - path: newVegas:Hips/newVegas:Spine/newVegas:Spine1/newVegas:Spine2/newVegas:LeftShoulder/newVegas:LeftArm/newVegas:LeftForeArm/newVegas:LeftHand/newVegas:LeftHandPinky1
+        weight: 1
+      - path: newVegas:Hips/newVegas:Spine/newVegas:Spine1/newVegas:Spine2/newVegas:LeftShoulder/newVegas:LeftArm/newVegas:LeftForeArm/newVegas:LeftHand/newVegas:LeftHandPinky1/newVegas:LeftHandPinky2
+        weight: 1
+      - path: newVegas:Hips/newVegas:Spine/newVegas:Spine1/newVegas:Spine2/newVegas:LeftShoulder/newVegas:LeftArm/newVegas:LeftForeArm/newVegas:LeftHand/newVegas:LeftHandPinky1/newVegas:LeftHandPinky2/newVegas:LeftHandPinky3
+        weight: 1
+      - path: newVegas:Hips/newVegas:Spine/newVegas:Spine1/newVegas:Spine2/newVegas:LeftShoulder/newVegas:LeftArm/newVegas:LeftForeArm/newVegas:LeftHand/newVegas:LeftHandRing1
+        weight: 1
+      - path: newVegas:Hips/newVegas:Spine/newVegas:Spine1/newVegas:Spine2/newVegas:LeftShoulder/newVegas:LeftArm/newVegas:LeftForeArm/newVegas:LeftHand/newVegas:LeftHandRing1/newVegas:LeftHandRing2
+        weight: 1
+      - path: newVegas:Hips/newVegas:Spine/newVegas:Spine1/newVegas:Spine2/newVegas:LeftShoulder/newVegas:LeftArm/newVegas:LeftForeArm/newVegas:LeftHand/newVegas:LeftHandRing1/newVegas:LeftHandRing2/newVegas:LeftHandRing3
+        weight: 1
+      - path: newVegas:Hips/newVegas:Spine/newVegas:Spine1/newVegas:Spine2/newVegas:LeftShoulder/newVegas:LeftArm/newVegas:LeftForeArm/newVegas:LeftHand/newVegas:LeftHandThumb1
+        weight: 1
+      - path: newVegas:Hips/newVegas:Spine/newVegas:Spine1/newVegas:Spine2/newVegas:LeftShoulder/newVegas:LeftArm/newVegas:LeftForeArm/newVegas:LeftHand/newVegas:LeftHandThumb1/newVegas:LeftHandThumb2
+        weight: 1
+      - path: newVegas:Hips/newVegas:Spine/newVegas:Spine1/newVegas:Spine2/newVegas:LeftShoulder/newVegas:LeftArm/newVegas:LeftForeArm/newVegas:LeftHand/newVegas:LeftHandThumb1/newVegas:LeftHandThumb2/newVegas:LeftHandThumb3
+        weight: 1
+      - path: newVegas:Hips/newVegas:Spine/newVegas:Spine1/newVegas:Spine2/newVegas:Neck
+        weight: 1
+      - path: newVegas:Hips/newVegas:Spine/newVegas:Spine1/newVegas:Spine2/newVegas:Neck/newVegas:Head
+        weight: 1
+      - path: newVegas:Hips/newVegas:Spine/newVegas:Spine1/newVegas:Spine2/newVegas:Neck/newVegas:Head/newVegas:Hair_Back
+        weight: 1
+      - path: newVegas:Hips/newVegas:Spine/newVegas:Spine1/newVegas:Spine2/newVegas:Neck/newVegas:Head/newVegas:Hair_Front
+        weight: 1
+      - path: newVegas:Hips/newVegas:Spine/newVegas:Spine1/newVegas:Spine2/newVegas:Neck/newVegas:Head/newVegas:Hair_Front/newVegas:Hair_Front1
+        weight: 1
+      - path: newVegas:Hips/newVegas:Spine/newVegas:Spine1/newVegas:Spine2/newVegas:Neck/newVegas:Head/newVegas:Hair_Front/newVegas:Hair_Front1/newVegas:Hair_Front2
+        weight: 1
+      - path: newVegas:Hips/newVegas:Spine/newVegas:Spine1/newVegas:Spine2/newVegas:Neck/newVegas:Head/newVegas:Jowel
+        weight: 1
+      - path: newVegas:Hips/newVegas:Spine/newVegas:Spine1/newVegas:Spine2/newVegas:Right_Collar
+        weight: 1
+      - path: newVegas:Hips/newVegas:Spine/newVegas:Spine1/newVegas:Spine2/newVegas:Right_Collar/newVegas:Right_Collar1
+        weight: 1
+      - path: newVegas:Hips/newVegas:Spine/newVegas:Spine1/newVegas:Spine2/newVegas:Right_Peck
+        weight: 1
+      - path: newVegas:Hips/newVegas:Spine/newVegas:Spine1/newVegas:Spine2/newVegas:RightShoulder
+        weight: 1
+      - path: newVegas:Hips/newVegas:Spine/newVegas:Spine1/newVegas:Spine2/newVegas:RightShoulder/newVegas:RightArm
+        weight: 1
+      - path: newVegas:Hips/newVegas:Spine/newVegas:Spine1/newVegas:Spine2/newVegas:RightShoulder/newVegas:RightArm/newVegas:Right_CapeA
+        weight: 1
+      - path: newVegas:Hips/newVegas:Spine/newVegas:Spine1/newVegas:Spine2/newVegas:RightShoulder/newVegas:RightArm/newVegas:Right_CapeA/newVegas:Right_CapeA1
+        weight: 1
+      - path: newVegas:Hips/newVegas:Spine/newVegas:Spine1/newVegas:Spine2/newVegas:RightShoulder/newVegas:RightArm/newVegas:Right_CapeB
+        weight: 1
+      - path: newVegas:Hips/newVegas:Spine/newVegas:Spine1/newVegas:Spine2/newVegas:RightShoulder/newVegas:RightArm/newVegas:Right_CapeB/newVegas:Right_CapeB1
+        weight: 1
+      - path: newVegas:Hips/newVegas:Spine/newVegas:Spine1/newVegas:Spine2/newVegas:RightShoulder/newVegas:RightArm/newVegas:RightForeArm
+        weight: 1
+      - path: newVegas:Hips/newVegas:Spine/newVegas:Spine1/newVegas:Spine2/newVegas:RightShoulder/newVegas:RightArm/newVegas:RightForeArm/newVegas:Right_CapeC
+        weight: 1
+      - path: newVegas:Hips/newVegas:Spine/newVegas:Spine1/newVegas:Spine2/newVegas:RightShoulder/newVegas:RightArm/newVegas:RightForeArm/newVegas:Right_CapeC/newVegas:Right_CapeC1
+        weight: 1
+      - path: newVegas:Hips/newVegas:Spine/newVegas:Spine1/newVegas:Spine2/newVegas:RightShoulder/newVegas:RightArm/newVegas:RightForeArm/newVegas:Right_Sleeve
+        weight: 1
+      - path: newVegas:Hips/newVegas:Spine/newVegas:Spine1/newVegas:Spine2/newVegas:RightShoulder/newVegas:RightArm/newVegas:RightForeArm/newVegas:RightHand
+        weight: 1
+      - path: newVegas:Hips/newVegas:Spine/newVegas:Spine1/newVegas:Spine2/newVegas:RightShoulder/newVegas:RightArm/newVegas:RightForeArm/newVegas:RightHand/newVegas:RightHandIndex1
+        weight: 1
+      - path: newVegas:Hips/newVegas:Spine/newVegas:Spine1/newVegas:Spine2/newVegas:RightShoulder/newVegas:RightArm/newVegas:RightForeArm/newVegas:RightHand/newVegas:RightHandIndex1/newVegas:RightHandIndex2
+        weight: 1
+      - path: newVegas:Hips/newVegas:Spine/newVegas:Spine1/newVegas:Spine2/newVegas:RightShoulder/newVegas:RightArm/newVegas:RightForeArm/newVegas:RightHand/newVegas:RightHandIndex1/newVegas:RightHandIndex2/newVegas:RightHandIndex3
+        weight: 1
+      - path: newVegas:Hips/newVegas:Spine/newVegas:Spine1/newVegas:Spine2/newVegas:RightShoulder/newVegas:RightArm/newVegas:RightForeArm/newVegas:RightHand/newVegas:RightHandMiddle1
+        weight: 1
+      - path: newVegas:Hips/newVegas:Spine/newVegas:Spine1/newVegas:Spine2/newVegas:RightShoulder/newVegas:RightArm/newVegas:RightForeArm/newVegas:RightHand/newVegas:RightHandMiddle1/newVegas:RightHandMiddle2
+        weight: 1
+      - path: newVegas:Hips/newVegas:Spine/newVegas:Spine1/newVegas:Spine2/newVegas:RightShoulder/newVegas:RightArm/newVegas:RightForeArm/newVegas:RightHand/newVegas:RightHandMiddle1/newVegas:RightHandMiddle2/newVegas:RightHandMiddle3
+        weight: 1
+      - path: newVegas:Hips/newVegas:Spine/newVegas:Spine1/newVegas:Spine2/newVegas:RightShoulder/newVegas:RightArm/newVegas:RightForeArm/newVegas:RightHand/newVegas:RightHandPinky1
+        weight: 1
+      - path: newVegas:Hips/newVegas:Spine/newVegas:Spine1/newVegas:Spine2/newVegas:RightShoulder/newVegas:RightArm/newVegas:RightForeArm/newVegas:RightHand/newVegas:RightHandPinky1/newVegas:RightHandPinky2
+        weight: 1
+      - path: newVegas:Hips/newVegas:Spine/newVegas:Spine1/newVegas:Spine2/newVegas:RightShoulder/newVegas:RightArm/newVegas:RightForeArm/newVegas:RightHand/newVegas:RightHandPinky1/newVegas:RightHandPinky2/newVegas:RightHandPinky3
+        weight: 1
+      - path: newVegas:Hips/newVegas:Spine/newVegas:Spine1/newVegas:Spine2/newVegas:RightShoulder/newVegas:RightArm/newVegas:RightForeArm/newVegas:RightHand/newVegas:RightHandRing1
+        weight: 1
+      - path: newVegas:Hips/newVegas:Spine/newVegas:Spine1/newVegas:Spine2/newVegas:RightShoulder/newVegas:RightArm/newVegas:RightForeArm/newVegas:RightHand/newVegas:RightHandRing1/newVegas:RightHandRing2
+        weight: 1
+      - path: newVegas:Hips/newVegas:Spine/newVegas:Spine1/newVegas:Spine2/newVegas:RightShoulder/newVegas:RightArm/newVegas:RightForeArm/newVegas:RightHand/newVegas:RightHandRing1/newVegas:RightHandRing2/newVegas:RightHandRing3
+        weight: 1
+      - path: newVegas:Hips/newVegas:Spine/newVegas:Spine1/newVegas:Spine2/newVegas:RightShoulder/newVegas:RightArm/newVegas:RightForeArm/newVegas:RightHand/newVegas:RightHandThumb1
+        weight: 1
+      - path: newVegas:Hips/newVegas:Spine/newVegas:Spine1/newVegas:Spine2/newVegas:RightShoulder/newVegas:RightArm/newVegas:RightForeArm/newVegas:RightHand/newVegas:RightHandThumb1/newVegas:RightHandThumb2
+        weight: 1
+      - path: newVegas:Hips/newVegas:Spine/newVegas:Spine1/newVegas:Spine2/newVegas:RightShoulder/newVegas:RightArm/newVegas:RightForeArm/newVegas:RightHand/newVegas:RightHandThumb1/newVegas:RightHandThumb2/newVegas:RightHandThumb3
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     isReadable: 1
   meshes:
     lODScreenPercentages: []
