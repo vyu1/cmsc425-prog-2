@@ -5,34 +5,27 @@ using UnityEngine.SceneManagement;
 
 public class GrannyControl : MonoBehaviour {
 
-	static Animator anim;
-	public Transform elvis;
-	private Rigidbody rb;
+	private Animator anim;
+	private Transform elvis;
 
 	private Vector3 heading;
 	private float distance;
-	private Vector3 currentlyKnownElvisPosition;
 	private bool onGround = true;
 	private bool firstTimeMoving = true;
-//	private AssetBundle myLoadedAssetBundle;
-//	private string[] scenePaths;
 
 	// Use this for initialization
 	void Start () {
 		anim = GetComponent<Animator> (); 
-		rb = GetComponent<Rigidbody> ();
+		elvis = GameObject.FindWithTag ("Elvis").transform;
 		this.transform.LookAt (elvis);
-		currentlyKnownElvisPosition = elvis.position;
 		heading = new Vector3 (elvis.transform.position.x - this.transform.position.x, 
 			0, elvis.transform.position.z - this.transform.position.z);
 		distance = heading.magnitude;
-//		myLoadedAssetBundle = AssetBundle.LoadFromFile("Assets/AssetBundles/scenes");
-//		scenePaths = myLoadedAssetBundle.GetAllScenePaths();
 	}
 	
 	// Update is called once per frame
 	void Update () {
-		currentlyKnownElvisPosition = elvis.position;
+		elvis = GameObject.FindWithTag ("Elvis").transform;
 		heading = new Vector3 (elvis.transform.position.x - this.transform.position.x, 
 			0, elvis.transform.position.z - this.transform.position.z);
 		distance = heading.magnitude;
@@ -45,18 +38,19 @@ public class GrannyControl : MonoBehaviour {
 				firstTimeMoving = false;
 
 				// move
+				if (anim.GetBool ("chasingElvis") == false) {
+					anim.SetBool ("chasingElvis", true);
+					anim.SetBool ("isIdle", false);
+				}
 				anim.SetTrigger ("chaseElvis");
-				transform.Translate (Vector3.forward * Time.deltaTime);
+				transform.Translate (Vector3.forward * 1.8f * Time.deltaTime);
 
 				// rotate SLOWLY
 				float degreesPerSecond = 10;
 				heading = new Vector3 (elvis.transform.position.x - this.transform.position.x, 
 					0, elvis.transform.position.z - this.transform.position.z);
-				Vector3 targetDir = elvis.position - transform.position;
 				Vector3 newDir = Vector3.RotateTowards (transform.forward, heading.normalized, 0.5f * Time.deltaTime, 0.0F);
 				transform.rotation = Quaternion.LookRotation (newDir);
-				//	transform.rotation = Quaternion.RotateTowards(transform.rotation, elvis.rotation, degreesPerSecond * Time.deltaTime);
-				//	transform.Rotate (elvis.rotation.eulerAngles * degreesPerSecond * Time.deltaTime);
 
 				RaycastHit hit;
 				Vector3 dir = new Vector3 (0, -1, 0);
@@ -69,12 +63,16 @@ public class GrannyControl : MonoBehaviour {
 					transform.Translate (Vector3.down * 2 * Time.deltaTime, Space.World);
 				}
 			} else {
-				anim.SetTrigger ("isIdle");
+				if (anim.GetBool ("isIdle") == false) {
+					anim.SetBool ("isIdle", true);
+					anim.SetBool ("chasingElvis", false);
+				}
 				firstTimeMoving = true;
 			}
 		} else {
 			transform.Rotate (Vector3.right * 180 * Time.deltaTime);
 			transform.Translate(Vector3.down * 2 * Time.deltaTime, Space.World);
+			Destroy (this.gameObject, 3);
 		}
 	}
 
