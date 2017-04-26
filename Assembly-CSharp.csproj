@@ -48,6 +48,7 @@
   <ItemGroup>
      <Compile Include="Assets\Scripts\ElvisControl.cs" />
      <Compile Include="Assets\Scripts\GrannyControl.cs" />
+     <Compile Include="Assets\Scripts\LoseScript.cs" />
      <None Include="Assets\SkyboxPack\ReadMe!.txt" />
  <Reference Include="UnityEngine.Analytics">
  <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityAnalytics/UnityEngine.Analytics.dll</HintPath>

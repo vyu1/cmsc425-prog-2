@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.AI;
+using UnityEngine.SceneManagement;
 
 public class ElvisControl : MonoBehaviour {
 
@@ -29,7 +30,8 @@ public class ElvisControl : MonoBehaviour {
 		// restarts the game
 		if (Input.GetKeyDown (KeyCode.R)) 
 		{
-			Application.LoadLevel(0);
+//			Application.LoadLevel(0);
+			SceneManager.LoadScene("Scene1", LoadSceneMode.Single);
 			Time.timeScale = 1;
 		}
 
