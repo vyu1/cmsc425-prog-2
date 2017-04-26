@@ -48,6 +48,7 @@
   <ItemGroup>
      <Compile Include="Assets\Scripts\ElvisControl.cs" />
      <Compile Include="Assets\Scripts\GrannyControl.cs" />
+     <Compile Include="Assets\Scripts\IntroScript.cs" />
      <Compile Include="Assets\Scripts\LoseScript.cs" />
      <None Include="Assets\SkyboxPack\ReadMe!.txt" />
  <Reference Include="UnityEngine.Analytics">
